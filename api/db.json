@@ -34,6 +34,11 @@
       "title": "Post One",
       "body": "This is post one edit",
       "id": 7
+    },
+    {
+      "title": "This is great",
+      "body": "hola",
+      "id": 8
     }
   ]
 }

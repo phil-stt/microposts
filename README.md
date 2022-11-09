@@ -1,13 +1,11 @@
 # Microposts
 
 ## Description
-Storybooks is an example of a simple blog/story publishing app using Node.js, Express, and MongoDB with Bootstap CSS.  It uses Google OAuth2 for authentication via Passport, and Handlebars to compile templates into JavaScript functions.
+Microposts is a responsive full stack micro-blogging platform using plain vanilla JavaScript and Bootstrap. As a backend, it uses the lightweight JSON server package. It illustrates the module design pattern and uses webpack for compiling an ES6+ syntax to ES5 for legacy browsers.  
 
 [![JavaScript][JavaScript.com]][Javascript-url]
-[![Express.js][Express.js]][Express-url]
-[![MongoDB][MongoDB.com]][MongoDB-url]
+[![NodeJS][NodeJS]][NodeJS-url]
 [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-
 
 ## Table of Contents
 
@@ -17,22 +15,21 @@ Storybooks is an example of a simple blog/story publishing app using Node.js, Ex
 
 ## Installation
 
-- Install Node.js and create a MongoDB instance 
-- Create your Google OAuth2 application and keys in GCP
+- Install Node.js
 - Clone the repo
 ```
-git clone https://github.com/phil-stt/storybooks
+git clone https://github.com/phil-stt/microposts
 ```
 - Install node packages `npm install`
-- Enter your API keys and MongoDB connection URI in `config/keys.js`
-- Run `npm start` to start the app
+- Run the JSON server in a dedicated terminal `npm run json:server`
+- Run `npm start` to compile and start the app
 
 
 ## Usage
 
-1.  Access the application in your browser at: `http://127.0.0.1:5301`
-2.  Login with Google from the navigation menu
-3.  Add your story!
+1.  Access the application in your browser at: `http://localhost:8080/`
+2.  Post a messsage to the board!
+3.  You may also access the JSON server at: `http://localhost:3000/`
 
 
 ## License
@@ -102,6 +99,8 @@ SOFTWARE.
 [Django-url]: https://www.djangoproject.com/
 [DjangoREST]: https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray
 [DjangoREST-url]: https://www.django-rest-framework.org/
+[NodeJS]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
+[NodeJS-url]: https://nodejs.org/en/
 
 
 
